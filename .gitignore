@@ -1,0 +1,28 @@
+# Local secrets and runtime state
+.env
+.env.*
+!.env.example
+*.pem
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+
+# Source data, generated labels, and model artifacts
+clips/
+out*/
+runs/
+data/
+datasets/
+Videos/
+Annotated/
+*.mov
+*.MOV
+*.mp4
+*.m4v
+*.zip
+*.pt
+*.pth
+*.onnx
+*.engine

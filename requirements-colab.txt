@@ -1,0 +1,8 @@
+# Supplemental Colab packages, matching the installation cell.
+# Use Colab's preinstalled CUDA-compatible torch; this is not an environment lock.
+numpy
+opencv-python
+matplotlib
+ipywidgets
+einops
+timm
